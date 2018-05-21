@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f710c7-0d62-4f17-88bc-4a48696cf50b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Sum.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/SumRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/Sum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/runners/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1251#1252#0" expanded="true" />
@@ -55,20 +55,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sum.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Sum.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stepdefinitions/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="420">
+              <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Objects/SumRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-555">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#72#73#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -380,6 +404,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/runners/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Sum.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Objects/SumRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/stepdefinitions/Sum.java" />
       </list>
     </option>
@@ -422,6 +447,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="base" type="b2602c69:ProjectViewProjectNode" />
@@ -501,6 +534,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="C:/Repos/base/src/test/resources/suites/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="base_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -523,6 +579,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Repos/base/src/test/resources/suites/testng.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -537,64 +598,74 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="C__Repos_base_src_test_resources_suites_testng_xml - 2018.05.21 at 08h 44m 05s.xml">
+      <configuration name="C:/Repos/base/src/test/resources/suites/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Repos_base_src_test_resources_suites_testng_xml - 2018.05.21 at 08h 57m 35s.xml">
+      <configuration name="C:/Repos/base/src/test/resources/suites/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1042" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4605042" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="9" weight="0.3277311" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3277311" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.43361345" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3277311" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -620,7 +691,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/runners/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1251#1252#0" expanded="true" />
@@ -629,17 +700,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Sum.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Objects/SumRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="-555">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#72#73#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stepdefinitions/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Sum.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
